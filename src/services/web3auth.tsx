@@ -126,7 +126,7 @@ export const Web3AuthProvider: FunctionComponent<IWeb3AuthState> = ({ children, 
     async function init() {
       try {
         setIsLoading(true);
-        const clientId = "BAgtDo_sIqRI0lw-qDCjzNdKLTgwfYvLLKYNIY4Bpiu9JyRQa4IYi2cBpc8KvPTqQgs8a9AfNfIjvY2OSLzJxd8";
+        const clientId = "CLIENT-ID";
         const web3AuthInstance = new Web3Auth({
           chainConfig: currentChainConfig,
           // get your client id from https://dashboard.web3auth.io
